@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #nav-section div img {
@@ -38,6 +38,7 @@ button {
     margin: 24px 120px 24px 0px;
     padding: 16px;
     border: none;
+    font-size: 18px;
     color: #FFFFFF;
     font-weight: 600px;
     font-style: Semi bold;
@@ -160,7 +161,7 @@ button:hover {
 
 .card img {
     background-color: rgba(249, 85, 85, 1);
-;
+    ;
     border-radius: 50px;
     padding: 20px;
     width: 60px;
@@ -216,63 +217,73 @@ button:hover {
     font-size: 16px;
     font-weight: 300px;
 }
+
 .solution-content ul li {
     font-size: 18px;
     font-weight: 700px;
-    font-style:  bold;
+    font-style: bold;
     list-style: circle;
     line-height: 1.5;
 }
 
 /*-- thinking section--*/
-#think-clearly{
+#think-clearly {
     background-color: rgba(247, 246, 242, 1);
     text-align: center;
     height: 385px;
     margin: 120px 120px;
     padding: 80px 40px;
 }
-#think-clearly h1{
+
+#think-clearly h1 {
     font-weight: 700px;
     font-size: 40px;
     font-style: bold;
 }
-#think-clearly p{
+
+#think-clearly p {
     font-weight: 400;
     font-size: 16px;
 }
 
 /*--footer section--*/
-#footer-section{
+#footer-section {
     background-color: rgba(0, 25, 49, 1);
     height: 348px;
 }
-#footer-container{
+
+#footer-container {
     display: flex;
     justify-content: space-between;
     padding: 120px 120px;
 }
-.logo-footer img{
+
+.logo-footer img {
     width: 139px;
     height: 60px;
 }
-.social{
+
+.social {
     margin-top: -40px;
 }
-.social h4{
+
+.social h4 {
     font-size: 22px;
     font-weight: 500px;
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-.social img{
+
+.social img {
     margin-right: 16px;
 }
-#footer-section p{
+
+#footer-section p {
     text-align: center;
     color: #FFFFFF;
 }
-hr{
+
+hr {
     margin: 0 120px;
-    border:1px solid rgb(46, 46, 58);
+    border: 1px solid rgb(46, 46, 58);
 }
