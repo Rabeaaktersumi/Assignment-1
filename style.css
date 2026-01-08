@@ -240,3 +240,38 @@ button:hover {
     font-weight: 400;
     font-size: 16px;
 }
+
+/*--footer section--*/
+#footer-section{
+    background-color: rgba(0, 25, 49, 1);
+    height: 348px;
+}
+#footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px;
+}
+.logo-footer img{
+    width: 139px;
+    height: 60px;
+}
+.social{
+    margin-top: -40px;
+}
+.social h4{
+    font-size: 22px;
+    font-weight: 500px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.social img{
+    margin-right: 16px;
+}
+#footer-section p{
+    text-align: center;
+    color: #FFFFFF;
+}
+hr{
+    margin: 0 120px;
+    border:1px solid rgb(46, 46, 58);
+}
