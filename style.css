@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+/*--header section--*/
+#nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+#nav-section div img {
+    width: 139px;
+    height: 60px;
+    margin: 16px 0px 16px 120px;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 32px;
+    font-weight: 500px;
+    font-style: medium;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*--common button__*/
+button {
+    background-color: #469165;
+    margin: 24px 120px 24px 0px;
+    padding: 16px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-style: Semi bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover{
+    border: 2px solid rgb(201, 248, 201);
+    background-color: #4e634e;
+    color: black;
+}
+
+/*--hero section---*/
+.hero {
+    background-image: url(./assets/hero-bg.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.hero .btn{
+    background-color: #FFFFFF;
+    color: #469165;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: medium;
+    border-radius: 1000px;
+    padding: 10px 25px;
+    margin: 125px 0 0 0;
+}
+.btn img{
+    height: 20px;
+}
+.hero h1{
+    font-size: 88px;
+    font-weight: 700px;
+    font-style: bold;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.hero p{
+    color: #FFFFFF;
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: 16px;
+}
+.hero-btn img{
+    width: 25px;
+    height: 15px;
+    align-items: center;
+}
+.hero-btn{
+    font-size: 25px;
+    margin-left: 120px;
+}
+#btn{
+    font-size: 25px;
+    margin-left: -115px;
+    background-color: rgba(49, 48, 48, 0.22);
+    border: 1px solid #FFFFFF;
+    padding: 14px 20px;
+}
+#btn img{
+    width: 19px;
+    height: 19px;
+    align-items: center;
+}
+#btn:hover{
+    background-color: #b8d3b8;
+}
+
+/*-- notes section--*/
+#heading{
+    text-align: center;
+    margin-top: 100px;
+}
+#heading h1{
+    font-size: 50px;
+    font-weight: 700px;
+    font-style: bold;
+    margin-bottom: 0;
+}
+#heading p{
+    font-size: 15px;
+    font-weight: 400px;
+}
+.note-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 120px;
+}
+.card{
+    width: 322px;
+    height: 300px;
+    text-align: center;
+    padding: 24px;
+    gap: 1px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(201, 201, 201);
+}
+.card img{
+    background-color: rgb(234, 103, 56);
+    border-radius: 50px;
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+}
+.card:hover{
+    background-color: #b2bcb2;
+    transition: 1s;
+}
+.card h4{
+    font-size: 32px;
+    font-weight: 600;
+    font-style: semi bold;
+    margin-bottom: 0;
+}
+.card p{
+    font-weight: 400px;
+    font-size: 19px;
+}
