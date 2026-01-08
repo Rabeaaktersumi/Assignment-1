@@ -222,3 +222,21 @@ button:hover {
     list-style: circle;
     line-height: 1.5;
 }
+
+/*-- thinking section--*/
+#think-clearly{
+    background-color: rgba(247, 246, 242, 1);
+    text-align: center;
+    height: 385px;
+    margin: 120px 120px;
+    padding: 80px 40px;
+}
+#think-clearly h1{
+    font-weight: 700px;
+    font-size: 40px;
+    font-style: bold;
+}
+#think-clearly p{
+    font-weight: 400;
+    font-size: 16px;
+}
