@@ -216,16 +216,20 @@ button:hover {
 .solution-content p {
     font-size: 16px;
     font-weight: 300px;
+    color: rgba(98, 115, 130, 1);
+    ;
 }
 
-.solution-content h5 {
+.solution-content .list {
     font-size: 18px;
-    font-weight: 700px;
+    font-weight: 800px;
     font-style: bold;
+    color: black;
     display: flex;
 }
-.solution-content h5 img{
-    margin-right: 5px;
+
+.solution-content .list img {
+    margin-right: 8px;
 }
 
 /*-- thinking section--*/
