@@ -156,7 +156,7 @@ button:hover {
     border: 1px solid #FFFFFF;
     cursor: pointer;
     border-radius: 8px;
-    box-shadow: 2px 2px 2px 2px rgb(201, 201, 201);
+    box-shadow: 0 0 5px 5px rgb(201, 201, 201);
 }
 
 .card img {
