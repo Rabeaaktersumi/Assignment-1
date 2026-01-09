@@ -218,12 +218,14 @@ button:hover {
     font-weight: 300px;
 }
 
-.solution-content ul li {
+.solution-content h5 {
     font-size: 18px;
     font-weight: 700px;
     font-style: bold;
-    list-style: circle;
-    line-height: 1.5;
+    display: flex;
+}
+.solution-content h5 img{
+    margin-right: 5px;
 }
 
 /*-- thinking section--*/
